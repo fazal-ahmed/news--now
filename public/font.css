@@ -1,0 +1,86 @@
+.font{
+    font-family: 'Monoton', cursive;
+    color: white;
+    padding-top:10px ;
+}
+.colour{
+    color: white;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.nav-item{
+    margin-top: 5px;
+}
+.navbar{
+    position: relative;
+    background-color: black;
+}
+.btn{
+    margin-top: 13px;
+    border:1px solid white;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.navbar-nav .nav-item :hover{
+    color: rgb(245, 0, 119);
+}
+.page-footer{
+    background-color: black;
+}
+.footer-copyright{
+    color: white;
+}
+.carousel-inner{
+    height: 83vh;
+}
+.head{
+    margin-bottom: 30px;
+}
+.slide{
+    position: relative;
+}
+.d-block{
+    height: 83vh;
+}
+.dropdown-toggle{
+    width: 80px;
+}
+.col-xs-4{
+    margin-left: 90px;
+}
+.news{
+    color: rgb(245, 0, 119);
+    font-size: 50px;
+}
+.card{
+    /* box-shadow: 8px 8px 20px 8px #858383; */
+    border: 3px solid rgb(245, 0, 119);
+    height: 100%;
+}
+.cs{
+    width : 17rem;
+}
+body{
+    background-color: black;
+}
+.page-footer{
+    background-color: rgb(245, 0, 119);
+}
+.card{
+    overflow: hidden;
+    height: 440px;
+}
+.card-img{
+    overflow: hidden;
+}
+
+.card-text{
+    color:white;
+}
+
+.card-source{
+    border: 1px solid rgb(245, 0, 119);
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}

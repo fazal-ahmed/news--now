@@ -12,9 +12,9 @@ function Cardgroup(props) {
             console.log('called')
             console.log(ans)
             setCard(ans.articles.map((item, index) => {
-                if (index <= 7)
+                if (index <= 7){
                     return index === 0 ? <div className="col col-md-6 col-sm-12"><Card key={index} heading={item.title} imageUrl={item.urlToImage} content={item.description} /></div> : <div className="col col-md-6 col-sm-12 ml-5"><Card cal={cls} key={index} heading={item.title} imageUrl={item.urlToImage} content={item.description} /></div>
-            }).filter(item => item))
+            }}).filter(item => item))
         }).catch(err => {
             throw err
         })

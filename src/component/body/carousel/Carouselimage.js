@@ -6,7 +6,7 @@ function CarouselImage(props) {
     console.log(props)
     const [headlines, setHeadlines] = useState([]);
     useEffect(() => {
-        fetch(`https://newsapi.org/v2/top-headlines?country=${props.region}&apiKey=1c94bdc466f046f58da50d5890ed9796`).then(res => {
+        fetch(`https://newsapi.org/v2/top-headlines?country=${props.region}&apiKey=bb5b1c906cb34c1d90fe13b072449dee`).then(res => {
             console.log('called')
             return res.json()
         }).then(ans => {

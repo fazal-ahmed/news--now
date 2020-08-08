@@ -11,7 +11,7 @@ function Sourcenews(props){
     //const data = props.match.params.param;
     useEffect(() => {
         console.log(serachWord)
-        fetch(`https://newsapi.org/v2/top-headlines?${serachWord}&apiKey=1c94bdc466f046f58da50d5890ed9796`).then(res => {
+        fetch(`https://newsapi.org/v2/top-headlines?${serachWord}&apiKey=bb5b1c906cb34c1d90fe13b072449dee`).then(res => {
             console.log('called')
             return res.json()
         }).then(ans => {

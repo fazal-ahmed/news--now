@@ -6,7 +6,9 @@ function Cardgroup(props) {
     const cls = { className: 'mt-3 cs' }
     const [card, setCard] = useState([]);
     useEffect(() => {
-        fetch(`https://newsapi.org/v2/top-headlines?country=${props.region}&category=${props.catagory}&apiKey=1c94bdc466f046f58da50d5890ed9796`).then(res => {
+        fetch(`https://newsapi.org/v2/top-headlines?country=${props.region}&category=${props.catagory}&apiKey=bb5b1c906cb34c1d90fe13b072449dee`
+        
+        ).then(res => {
             return res.json()
         }).then(ans => {
             console.log('called')
